@@ -1018,7 +1018,7 @@ function zt(e, t, r, i, n) {
 }
 
 function Lt() {
-  return new Worker("/ecs/assets/transformWorker.86e50aca.js", {
+  return new Worker("./transformWorker.86e50aca.js", {
     type: "module"
   })
 }
