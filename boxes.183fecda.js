@@ -4,7 +4,7 @@ import { l } from "./loadThreeGeometry.57e0a31d.js";
 import "https://cdn.skypack.dev/three@0.136/examples/jsm/utils/BufferGeometryUtils.js";
 
 function y() {
-  return new Worker("/ecs/assets/boxes_worker.17b17f9a.js", {
+  return new Worker("./boxes_worker.17b17f9a.js", {
     type: "module"
   })
 }

@@ -55,7 +55,8 @@ const st = function() {
 };
 st();
 if (typeof SharedArrayBuffer == "undefined") {
-  throw new Error("SharedArrayBuffer is not supported");
+  // throw new Error("SharedArrayBuffer is not supported");
+  window.SharedArrayBuffer = ArrayBuffer
 }
 const f = {
   any: Array,
